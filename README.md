@@ -1,6 +1,6 @@
 # About
 
-This is a mod to essentially cheat, swords with 1,000,000 damage, etc. You can not craft any of these items, but it is fun to check out!
+This is a mod to essentially cheat, swords with 1,000,000,   damage, etc. You can not craft any of these items, but it is fun to check out!
 
 
 # Source installation information for modders
