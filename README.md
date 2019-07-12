@@ -1,6 +1,10 @@
--------------------------------------------
-Source installation information for modders
--------------------------------------------
+# About
+
+This is a mod to essentially cheat, swords with 1,000,000,000   damage, etc. You can not craft any of these items, but it is fun to check out!
+
+
+# Source installation information for modders
+
 This code follows the Minecraft Forge installation methodology. It will apply
 some small patches to the vanilla MCP source code, giving you and it access 
 to some of the data and functions you need to build a successful mod.
@@ -11,8 +15,8 @@ normal code.
 
 Source pack installation information:
 
-Standalone source installation
-==============================
+# Standalone source installation
+
 
 See the Forge Documentation online for more detailed instructions:
 http://mcforge.readthedocs.io/en/latest/gettingstarted/
@@ -22,7 +26,8 @@ Step 1: Open your command-line and browse to the folder where you extracted the 
 Step 2: Once you have a command window up in the folder that the downloaded material was placed, type:
 
 Windows: "gradlew setupDecompWorkspace"
-Linux/Mac OS: "./gradlew setupDecompWorkspace"
+
+Linux/Mac OS: "sudo ./gradlew setupDecompWorkspace"
 
 Step 3: After all that finished, you're left with a choice.
 For eclipse, run "gradlew eclipse" (./gradlew eclipse if you are on Mac/Linux)
@@ -32,7 +37,7 @@ If you prefer to use IntelliJ, steps are a little different.
 2. Select your build.gradle file and have it import.
 3. Once it's finished you must close IntelliJ and run the following command:
 
-"gradlew genIntellijRuns" (./gradlew genIntellijRuns if you are on Mac/Linux)
+```gradlew genIntellijRuns``` (./gradlew genIntellijRuns if you are on Mac/Linux)
 
 Step 4: The final step is to open Eclipse and switch your workspace to /eclipse/ (if you use IDEA, it should automatically start on your project)
 
@@ -49,13 +54,13 @@ If you do not care about seeing Minecraft's source code you can replace "setupDe
 Tip:
 When using Decomp workspace, the Minecraft source code is NOT added to your workspace in a editable way. Minecraft is treated like a normal Library. Sources are there for documentation and research purposes and usually can be accessed under the 'referenced libraries' section of your IDE.
 
-Forge source installation
-=========================
+# Forge source installation
+
 MinecraftForge ships with this code and installs it as part of the forge
 installation process, no further action is required on your part.
 
-LexManos' Install Video
-=======================
+# LexManos' Install Video
+
 https://www.youtube.com/watch?v=8VEdtQLuLO0&feature=youtu.be
 
 For more details update more often refer to the Forge Forums:
